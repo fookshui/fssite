@@ -35,16 +35,16 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-[permalinks]
-  posts = "/posts/:year/:month/:title/"
+#[permalinks]
+#  posts = "/posts/:year/:month/:title/"
 
 [author]
   name = "Fook Shui"
 
-[blackfriday]
-  hrefTargetBlank = true
-  plainIDAnchors = true
-  
+#[blackfriday]
+#  hrefTargetBlank = true
+#  plainIDAnchors = true
+
 [taxonomies]
   tag      = "tags"
   category = "categories"
