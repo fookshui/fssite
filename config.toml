@@ -42,8 +42,8 @@ disableHugoGeneratorInject = false
   name = "Fook Shui"
 
 [blackfriday]
-  hrefTargetBlank = true
-  plainIDAnchors = true
+  hrefTargetBlank = false
+#  plainIDAnchors = true
 
 [taxonomies]
   tag      = "tags"
