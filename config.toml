@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   # Metadata mostly used in document's head
   description = ""
   keywords = ""
-  images = ["images/logo.png"]
+  images = ["/images/logo.png"]
 
   homeSubtitle = "Fook Shui In Hong Kong."
 
@@ -107,10 +107,10 @@ disableHugoGeneratorInject = false
     # logoCursorAnimate  = "2s"
 
   # Uncomment this if you want a portrait on your start page
-  # [params.portrait]
-  #path     = "/images/logo.png"
-  #alt      = "Portrait"
-  #maxWidth = "50px"
+   [params.portrait]
+  path     = "/images/logo.png"
+  alt      = "Portrait"
+  maxWidth = "100px"
 
   # Social icons
   [[params.social]]
@@ -136,6 +136,10 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "youtube"
     url  = "https://www.youtube.com/channel/UCNH65a_lUpKUUa3elktRKVg"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/fo0kshu1"
 
 [languages]
   [languages.en]
